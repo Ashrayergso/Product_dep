@@ -1,0 +1,51 @@
+```css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.product-card {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+}
+
+.product-name {
+    font-size: 20px;
+    color: #333;
+}
+
+.product-description {
+    font-size: 16px;
+    color: #666;
+}
+
+.product-number, .vendor-name, .cost {
+    font-size: 14px;
+    color: #999;
+}
+
+.link-to-product {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.link-to-product:hover {
+    color: #0056b3;
+}
+```
